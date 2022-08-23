@@ -13,6 +13,7 @@ Além disso, é necessario ter um MySQL Server rodando na sua máquina na porta 
 É importante que você crie um arquivo ".env" na pasta vars e escreva no seguinte modelo:
 
 ``` 
+PORT="Porta a ser utilizada pelo Express"
 HOST_DB="é o IP do seu Mysql Server (localhost)"
 DB_USER="usuário do seu server, root padrão"
 DB_PASSWORD="senha do seu server"
