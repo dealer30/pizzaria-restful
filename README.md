@@ -27,6 +27,8 @@ Após isso, dê um "npm start" no console.
 
 # Rotas
 
+[![Run in Postman!](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/938cdba9b45d6c482101?action=collection%2Fimport)
+
 ## Clientes
 
 Rotas para manipulação de clientes.
