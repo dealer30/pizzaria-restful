@@ -7,11 +7,11 @@ const clientsGet = async(req,res)=>{
 };
 
 const clientsGetId = async(req,res)=>{
-    let client = await client.findOne({where: { id: req.params.id }}).then();
+    let cliente = await client.findOne({where: { id: req.params.id }}).then();
 
-    if (!client){ return res.status(404).json("Client not found")}
+    if (!cliente){ return res.status(404).json("Client not found")}
 
-    res.json(client);
+    res.json(cliente);
 };
 
 const clientsPost = async(req,res)=>{
